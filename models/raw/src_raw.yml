@@ -1,0 +1,10 @@
+vertion: 2
+
+sources:
+  - name: shen
+    database: TRAIN_RAW
+    schema: TRAIN_GLOBALMART
+    tables:
+      - name: customer
+      - name: order
+      - name: product
