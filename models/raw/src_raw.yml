@@ -8,3 +8,9 @@ sources:
       - name: CUSTOMER
       - name: PRODUCT
       - name: ORDERS
+        columns:
+          - name: ORDERID
+            test:
+              - unique
+              - not_null
+              
