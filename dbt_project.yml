@@ -1,3 +1,35 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@shenhavlavie 
+shenhavlavie
+/
+dbt-training
+Public
+Cannot fork because you own this repository and are not a member of any organizations.
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+dbt-training/dbt_project.yml
+@shenhavlavie
+shenhavlavie initializing project
+Latest commit 418a30a 5 days ago
+ History
+ 1 contributor
+38 lines (31 sloc)  1.28 KB
+
+
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
@@ -33,9 +65,20 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   my_new_project:
     # Applies to all files under models/example/
-    raw:
-      materialized: table
-    stag:
+    example:
       materialized: view
-    reports:
-      materialized: table
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+dbt-training/dbt_project.yml at 418a30a4f9bbcfad8e50eb8ffbf27b8bbbc3a020 · shenhavlavie/dbt-training
