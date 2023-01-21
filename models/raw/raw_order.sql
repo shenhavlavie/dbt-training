@@ -6,4 +6,4 @@
 }}
 
 select * 
-from "TRAIN_RAW"."TRAIN_GLOBALMART"."ORDER"
+from {{ source('shen', 'ORDER') }}

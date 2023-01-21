@@ -6,4 +6,4 @@
 }}
 
 select * 
-from  "TRAIN_RAW"."TRAIN_GLOBALMART"."CUSTOMER"
+from {{ source('shen', 'CUSTOMER') }}
