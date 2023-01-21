@@ -6,5 +6,5 @@ sources:
     schema: TRAIN_GLOBALMART 
     tables: 
       - name: CUSTOMER
-      - name: ORDER
       - name: PRODUCT
+      - name: "ORDER"
