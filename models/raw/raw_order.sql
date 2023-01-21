@@ -6,4 +6,4 @@
 }}
 
 select * 
-from {{ source('shen', 'ORDER') }}
+from {{ source('shen', 'ORDERS') }}
