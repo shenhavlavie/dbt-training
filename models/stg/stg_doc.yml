@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_order
+    description: one unique order per raw
+    column:
+      - name: orderid
+        description: the pk
+      - name: SHIPMODE
+        description:  '{{doc("SHIPMODE")}}'

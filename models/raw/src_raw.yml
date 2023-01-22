@@ -2,14 +2,17 @@ version: 2
 
 sources:
   - name: shen
+    description: a clone bla bla
     database: TRAIN_RAW
     schema: TRAIN_GLOBALMART 
     tables: 
       - name: CUSTOMER
       - name: PRODUCT
       - name: ORDERS
+        description: order bla bla
         columns:
           - name: ORDERID
+            description: bllllla
             test:
               - unique
               - not_null
