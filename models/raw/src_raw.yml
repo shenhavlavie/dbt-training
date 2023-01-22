@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: shen
+    database: TRAIN_RAW
+    schema: TRAIN_GLOBALMART 
+    tables: 
+      - name: CUSTOMER
+      - name: PRODUCT
+      - name: ORDERS
+        columns:
+          - name: ORDERID
+            test:
+              - unique
+              - not_null
+              
